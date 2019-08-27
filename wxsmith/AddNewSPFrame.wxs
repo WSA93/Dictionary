@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="AddNewSPFrame">
+		<title>Dictionary - Add Singular Plural</title>
+		<centered>1</centered>
+		<size>700,500</size>
+		<fg>wxSYS_COLOUR_WINDOW</fg>
+		<bg>#B0B0FF</bg>
+		<font>
+			<size>10</size>
+			<style>normal</style>
+			<weight>normal</weight>
+			<underlined>0</underlined>
+			<family>swiss</family>
+			<face>Kristen ITC</face>
+		</font>
+		<id_arg>0</id_arg>
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Singular</label>
+			<pos>232,160</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>328,160</pos>
+			<size>144,26</size>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Plural</label>
+			<pos>232,216</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<pos>328,216</pos>
+			<size>144,26</size>
+			<handler function="OnTextCtrl2Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Add</label>
+			<pos>232,280</pos>
+			<size>104,40</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+			<bg>wxSYS_COLOUR_HIGHLIGHT</bg>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>Save</label>
+			<pos>368,280</pos>
+			<size>104,40</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+			<bg>wxSYS_COLOUR_HIGHLIGHT</bg>
+			<handler function="OnButton2Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+			<label>ADD NEW SINGULARS PLURALS</label>
+			<pos>144,112</pos>
+			<size>416,240</size>
+		</object>
+		<object class="wxMessageDialog" name="ID_MESSAGEDIALOG1" variable="MessageDialog1" member="yes">
+			<caption>Message</caption>
+			<message>This Word Already Exists</message>
+			<style>wxOK</style>
+		</object>
+	</object>
+</wxsmith>

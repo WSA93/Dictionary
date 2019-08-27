@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="DictionaryFrame">
+		<title>Dictionary</title>
+		<centered>1</centered>
+		<pos>0,0</pos>
+		<size>700,500</size>
+		<bg>#B0B0FF</bg>
+		<font>
+			<size>8</size>
+			<style>normal</style>
+			<weight>normal</weight>
+			<underlined>0</underlined>
+			<family>swiss</family>
+			<face>Kristen ITC</face>
+		</font>
+		<id_arg>0</id_arg>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Search Meanings</label>
+			<pos>128,160</pos>
+			<size>192,40</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+			<bg>wxSYS_COLOUR_HIGHLIGHT</bg>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Kristen ITC</face>
+			</font>
+			<tooltip>Press To Search Meanings</tooltip>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>Search Plurals</label>
+			<pos>128,224</pos>
+			<size>192,40</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+			<bg>wxSYS_COLOUR_HIGHLIGHT</bg>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Kristen ITC</face>
+			</font>
+			<tooltip>Press To Search Plurals</tooltip>
+			<handler function="OnButton2Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON3" variable="Button3" member="yes">
+			<label>Search Opposites</label>
+			<pos>128,296</pos>
+			<size>192,40</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+			<bg>wxSYS_COLOUR_HIGHLIGHT</bg>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Kristen ITC</face>
+			</font>
+			<tooltip>Press To Serach Opposites</tooltip>
+			<handler function="OnButton3Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON4" variable="Button4" member="yes">
+			<label>Add New Words Meanings</label>
+			<pos>376,160</pos>
+			<size>192,40</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+			<bg>wxSYS_COLOUR_HIGHLIGHT</bg>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Kristen ITC</face>
+			</font>
+			<tooltip>Press To Add New Words Meanings In The Dictionary</tooltip>
+			<handler function="OnButton4Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON5" variable="Button5" member="yes">
+			<label>Add New Singular Plurals</label>
+			<pos>376,224</pos>
+			<size>192,40</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+			<bg>wxSYS_COLOUR_HIGHLIGHT</bg>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Kristen ITC</face>
+			</font>
+			<tooltip>Press To Add New Singular Plurals In The Dictionary</tooltip>
+			<handler function="OnButton5Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON6" variable="Button6" member="yes">
+			<label>Add New Words Opposites</label>
+			<pos>376,296</pos>
+			<size>192,40</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+			<bg>wxSYS_COLOUR_HIGHLIGHT</bg>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Kristen ITC</face>
+			</font>
+			<tooltip>Press To Add New Words Opposites In The Dictionary</tooltip>
+			<handler function="OnButton6Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+			<label>MAIN MENU</label>
+			<pos>88,112</pos>
+			<size>520,264</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>DICTIONARY</label>
+			<pos>224,40</pos>
+			<size>225,56</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+			<font>
+				<size>24</size>
+				<style>italic</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Kristen ITC</face>
+			</font>
+		</object>
+	</object>
+</wxsmith>

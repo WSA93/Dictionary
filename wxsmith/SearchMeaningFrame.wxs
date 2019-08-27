@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="SearchMeaningFrame">
+		<title>Dictionary-Search Meaning</title>
+		<centered>1</centered>
+		<size>700,500</size>
+		<bg>#B0B0FF</bg>
+		<font>
+			<size>10</size>
+			<style>normal</style>
+			<weight>normal</weight>
+			<underlined>0</underlined>
+			<family>swiss</family>
+			<face>Kristen ITC</face>
+		</font>
+		<id_arg>0</id_arg>
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Word</label>
+			<pos>104,160</pos>
+			<size>40,16</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>168,160</pos>
+			<size>128,24</size>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Kristen ITC</face>
+			</font>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Meaning</label>
+			<pos>104,232</pos>
+			<size>56,18</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>Search</label>
+			<pos>288,288</pos>
+			<size>136,40</size>
+			<fg>wxSYS_COLOUR_HIGHLIGHTTEXT</fg>
+			<bg>wxSYS_COLOUR_MENUHILIGHT</bg>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+			<pos>168,232</pos>
+			<size>392,24</size>
+			<font>
+				<size>10</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Kristen ITC</face>
+			</font>
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+			<label>SEARCH MEANING</label>
+			<pos>88,112</pos>
+			<size>528,248</size>
+			<fg>wxSYS_COLOUR_WINDOW</fg>
+		</object>
+	</object>
+</wxsmith>
