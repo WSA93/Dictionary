@@ -1,5 +1,5 @@
 # Dictionary
-This program is a dictionary application having three features
+This program is a dictionary application having three features.
 
 Words meanings, word opposites and singular plurals. User is able to save these three things in the dictionary which are saved in a file.
 
